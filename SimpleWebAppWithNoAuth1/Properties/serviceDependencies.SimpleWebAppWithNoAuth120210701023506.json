@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/webapplication18dbserver/databases/WebApplication18_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:BlogConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
